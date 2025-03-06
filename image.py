@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 def main():
-    image = cv2.imread("image.jpg")
+    image = cv2.imread("dog_image.jpeg")
     if image is None:
         print("Error: Image not found!")
         return
